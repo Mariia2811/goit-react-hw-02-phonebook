@@ -1,0 +1,26 @@
+.container {
+    margin-bottom: 20px;
+}
+
+.listItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.name {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #c82333;
+}

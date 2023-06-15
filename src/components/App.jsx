@@ -31,8 +31,8 @@ export function App() {
   };
 
   const handleFilterChange = (filterValue) => {
-  setFilter(filterValue);
-};
+    setFilter(filterValue);
+  };
 
   const filteredContacts = contacts.filter((contact) =>
     contact.name && contact.name.toLowerCase().includes(filter.toLowerCase())
