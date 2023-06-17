@@ -3,14 +3,16 @@
 }
 
 .listItem {
-    display: flex;
+    /* display: flex; */
+    list-style: none;
+    margin-right: 20px;
     align-items: center;
     margin-bottom: 10px;
 }
 
 .name {
     flex-grow: 1;
-    margin-right: 10px;
+    margin-right: 30px;
 }
 
 .button {
